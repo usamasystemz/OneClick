@@ -1,0 +1,172 @@
+body{
+    margin: 5% 0;
+    background-color: #FFFF00;
+}
+a{
+    text-decoration: none;
+}
+/*パソコン*/
+@media (min-width:800px) {
+    .font00{
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .font01{
+        font-size: 30px;
+        text-align: center;
+        margin: 0.5em 0;
+    } 
+    .font02{
+        font-size: 30px;
+        font-weight: 600;
+        color: #FF0000;
+    }
+    .font03{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0.5em 0;
+    }
+    .font04{
+        font-size: 30px;
+        font-weight: 600;
+        color: #FF0000;
+        margin: 0.5em 0;
+
+    }
+    .font05{
+        font-weight: 300;
+        color: #000000;
+    }
+    .font06{
+        font-size: 20px;
+        text-align: center;
+        margin: 0.5em;
+    }
+    .font07{
+        font-size: 25px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .font08{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .box00{
+        border: solid 3px;
+        width: 750px;
+        background-color: #FFDAB9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box01{
+        border: solid 3px;
+        width: 600px;
+        border-radius: 30px;
+        background-color: #00BFFF;
+        text-align: center;
+    }
+    .box02{
+        background-color: #FFFFFF;
+    }
+    .flex00{
+        display: flex;
+        justify-content: center;
+    }
+    .flex01{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    .flex02{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+    .flex03{
+        display: flex;
+        justify-content: center;
+    }
+}
+/*スマホ*/
+@media(max-width:799px){
+    .font00{
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .font01{
+        font-size: 16px;
+        text-align: center;
+        margin: 0.5em 0;
+    }
+    .font02{
+        font-size: 16px;
+        font-weight: 600;
+        color: #FF0000;
+    }
+    .font03{
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0.5em 0;
+    }
+    .font04{
+        font-size: 16px;
+        font-weight: 600;
+        color: #FF0000;
+        margin: 0.5em 0;
+    }
+    .font05{
+        font-weight: 300;
+        color: #000000;
+    }
+    .font06{
+        font-size: 12px;
+        text-align: center;
+    }
+    .font07{
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .font08{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .box00{
+        border: solid 3px;
+        width: 300px;
+        background-color: #FFDAB9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box01{
+        border: solid 3px;
+        width: 320px;
+        border-radius: 20px;
+        background-color: #00BFFF;
+        text-align: center;
+    }
+    .box02{
+        background-color: #FFFFFF;
+    }
+    .flex00{
+        display: flex;
+        justify-content: center;
+    }
+    .flex01{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    .flex02{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex03{
+        display: flex;
+        justify-content: center;
+    }
+}
